@@ -1,27 +1,19 @@
 {
-  "name": "tslint",
-  "displayName": "TSLint",
-  "description": "TSLint for Visual Studio Code",
+  "name": "tslint-tmp-multiroot-compat",
+  "displayName": "TSLint (TEMP multiroot-compat)",
+  "description": "TEMPORARY multiroot-compatible TSLint for Visual Studio Code. Use eg2.tslint for stable builds.",
   "version": "0.17.0",
   "author": "Microsoft Corporation",
   "license": "MIT",
-  "publisher": "eg2",
-  "icon": "TSLint_icon.png",
-  "galleryBanner": {
-    "color": "#5c2d91",
-    "theme": "dark"
-  },
+  "publisher": "sqs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Microsoft/vscode-tslint.git"
+    "url": "https://github.com/sqs/vscode-tslint.git"
   },
   "bugs": {
-    "url": "https://github.com/Microsoft/vscode-tslint/issues"
+    "url": "https://github.com/sqs/vscode-tslint/issues"
   },
-  "categories": [
-    "Languages",
-    "Linters"
-  ],
+  "preview": true,
   "engines": {
     "vscode": "^1.15.0"
   },
@@ -101,7 +93,6 @@
           "default": "onType",
           "description": "Run the linter on save (onSave) or on type (onType)",
           "scope": "window"
-
         },
         "tslint.nodePath": {
           "type": "string",
